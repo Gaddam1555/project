@@ -35,7 +35,7 @@ pipeline {
    tools {
     maven 'Maven 3.9.6'  // Use the exact Maven installation name you configured in Jenkins
 }
-    }
+    
 
     // Define the stages of your CI/CD pipeline.
     stages {
