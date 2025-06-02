@@ -32,8 +32,9 @@ pipeline {
     // Define tools required for the pipeline.
     // 'M3' should match the name of your Maven installation configured in Jenkins
     // (Manage Jenkins -> Global Tool Configuration -> Maven installations).
-    tools {
-        maven 'M3'
+   tools {
+    maven 'Maven 3.9.6'  // Use the exact Maven installation name you configured in Jenkins
+}
     }
 
     // Define the stages of your CI/CD pipeline.
